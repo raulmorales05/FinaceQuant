@@ -1,0 +1,18 @@
+El programa esta compuesto por varios archivos:
+Mostrar es el principal, el cual realiza la mayoria de procesos. Luego esta el archivo de metricas y por ultimo el de montecarlo.
+
+Librerias fundamentales con las que trabaje:
+-Tweepy
+-TextBlob
+-Streamlit
+-Numpy
+-Pandas
+-Matplotlib
+-Seaborn
+-yfinance
+-time
+-quantstats
+
+Para ejecutar el archivo Mostrar.py (como asi todos aquellos que contengan la libreria Streamlit) se debe ejecutar con este comando en la terminal: py -m streamlit run Mostrar.py
+Por otro lado se encuentra la carpeta de Tw, la cual contien el archivo obtener.py y plot.py para hacer el analisis de sentmiento.
+Y finalmente, la carpeta DB que contiene un programa que extrae los datos de la base de datos trabajada con SQL en Workbench
